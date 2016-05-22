@@ -18,6 +18,13 @@
 -->
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <!-- HW keys prefs-->
+    <bool name="config_hwKeysPref">true</bool>
+     
+    <!-- Whether a software navigation bar should be shown. NOTE: in the future this may be
+    autodetected from the Configuration. -->
+    <bool name="config_showNavigationBar">false</bool>
 
     <bool name="config_wifi_background_scan_support">true</bool>
     <bool name="config_wifi_batched_scan_supported">false</bool>
